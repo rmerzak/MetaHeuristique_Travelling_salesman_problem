@@ -62,7 +62,7 @@ int TSP::get_dist(int ci, int cj)
 
 int* TSP::Nearest_Neighbor(int *givenCityindex)
 {
-	size_t	minDistance = 9999999; // I hate this, fix it
+	size_t	minDistance = 9999999; // must fix this shit
 	int		indexOfMinDistance = 0;
 
 	for (int i = 0; i < num_cities; i++)
